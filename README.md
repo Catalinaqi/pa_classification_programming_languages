@@ -12,32 +12,28 @@ Interpreted languages execute source code line by line using an interpreter with
 
 **Examples:** **Python, JavaScript, Ruby, PHP, Bash, ABAP, PL/SQL**
 
-**Categories of Interpreted Languages**
+### **Categories of Interpreted Languages**
 
-Purely Interpreted Languages (executed directly without a virtual machine):
+#### Purely Interpreted Languages  
+*(Executed directly without a virtual machine)*  
 
-   Bash
-      (Shell Scripting)
-      Runs directly in a shell (like Bash, Zsh, or Fish).
-      It doesn't use bytecode or a virtual machine, but interprets and executes it line by line.
-   AWK
-   Sed
-   Tcl
+- **Bash** *(Shell Scripting)*  
+  - Runs directly in a shell (like Bash, Zsh, or Fish).  
+  - It doesn't use bytecode or a virtual machine but interprets and executes code line by line.  
+- **AWK**  
+- **Sed**  
+- **Tcl**  
 
-Languages Using a Virtual Machine (VM) for Execution:
+#### Languages Using a Virtual Machine (VM) for Execution  
 
-   Python → 
-               Uses the CPython VM to execute bytecode.
-   JavaScript → 
-               Runs in V8 (Chrome, Node.js), SpiderMonkey (Firefox), or JavaScriptCore (Safari).
-   Ruby → 
-               Uses YARV (Yet Another Ruby VM).
-   PHP → 
-               Uses the Zend Engine.
-   ABAP → 
-               Runs in the ABAP Runtime Environment inside SAP.
-   PL/SQL → 
-               Runs in the Oracle PL/SQL Engine.
+- **Python** → Uses the CPython VM to execute bytecode.  
+- **JavaScript** → Runs in V8 (Chrome, Node.js), SpiderMonkey (Firefox), or JavaScriptCore (Safari).  
+- **Ruby** → Uses YARV (Yet Another Ruby VM).  
+- **PHP** → Uses the Zend Engine.  
+- **ABAP** → Runs in the ABAP Runtime Environment inside SAP.  
+- **PL/SQL** → Runs in the Oracle PL/SQL Engine.  
+
+---
 
 ### **Compiled Languages**
 
@@ -47,6 +43,7 @@ Compiled languages require a compilation phase that translates the source code i
 
 **Examples:** **C, C++, Rust, Go, Fortran, Pascal**
 
+---
 
 ### **Mixed Languages**
 
